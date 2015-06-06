@@ -1,0 +1,13 @@
+<suite name="Suite" > //here parallel="tests" means run both the test in parallel and thread-count="2" means run two test cases parallel.  
+  <!-- <test name="Test1">
+    //to pass the input to the java class
+   <classes> 
+          <class name="modules.NewModule"/>   
+   </classes>
+  </test>  --> 
+  <test name="Test2">
+  <classes> 
+          <class name="modules.AllReports"/> 
+   </classes>
+  </test> 
+</suite> 

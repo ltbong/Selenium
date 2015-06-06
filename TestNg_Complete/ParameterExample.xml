@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Test suite 1">
+    <test name = "Simple tests">
+        <parameter name ="browser" value="chrome"/>
+        <parameter name ="username" value="raviteja"/>
+        <parameter name="password" value="Design_20"/>
+        <classes>
+            <class name="example.TestParameter"/>
+            <methods>
+                <include name ="testMethod"/>
+                <include name ="credentials"/>
+            </methods>
+        </classes>
+    </test>
+        
+</suite>

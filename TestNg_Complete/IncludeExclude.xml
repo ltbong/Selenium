@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Test suite 1">
+    <test name = "Unit tests">
+       <classes>
+           <class name ="example.IncExcExample"/>
+           <methods>
+               <include name ="addEmployee"/>
+               <exclude name ="addDepartment"/>
+               <include name ="addDesignation"/>
+           </methods>
+       </classes> 
+    </test>
+</suite>

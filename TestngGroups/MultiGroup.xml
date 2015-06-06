@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Multi group suite" verbose="1" >
+    <test name ="Test group one">
+        <groups>
+            <run>
+                <include name="group-one"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="example.MultiGroupExample"/>
+        </classes>
+    </test>
+    <test name ="Test group two">
+        <groups>
+            <run>
+                <include name="group-two"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="example.MultiGroupExample"/>
+        </classes>
+    </test>
+</suite>

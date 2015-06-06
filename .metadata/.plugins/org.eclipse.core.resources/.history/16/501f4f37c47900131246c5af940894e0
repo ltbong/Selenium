@@ -1,0 +1,18 @@
+package day1;
+import java.util.*;
+
+
+public class Sample_Java {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String x;
+x="hellowrld";
+System.out.println(x);
+	Date t1 =new Date();
+	System.out.println(t1.getDate());
+	}
+	
+
+}

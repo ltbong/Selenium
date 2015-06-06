@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Test suite 1">
+    <test name ="unit tests" preserve-order="false">
+        <classes>
+            <class name="example.PreserveOrder"/>
+            <class name="example.SkipTest"/>
+            <class name="example.TimeoutTest"/>
+        </classes>
+    </test>
+</suite>

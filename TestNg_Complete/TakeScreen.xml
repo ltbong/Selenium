@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="test suite 1">
+    <listeners>
+       <listener class-name="example.TakeScreenshotExample"/>
+  </listeners>
+   <test name ="unit test">
+    <classes>
+        <class name ="example.DataProviderExcel"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,1614 @@
+[
+  {
+    "symbolicName": "org.apache.commons.collections",
+    "version": {
+      "major": 3,
+      "minor": 2,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "761ea405b9b37ced573d2df0d1e3a4e0f9edc668",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-collections-3.2.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jna-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f4e1672a22b63e37a5d929603cb67e093e3729d5",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\jna-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jna-platform-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b58af397fd3156d700ad5016bcdd307a7a62ef5",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\jna-platform-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sourceforge.htmlunit.htmlunit",
+    "version": {
+      "major": 2,
+      "minor": 15,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8d3e66215a2337cfbc5c3316820ab300022baa54",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\htmlunit-2.15.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f4081b69df48f293cf72c65d2cbe0108fbd1539",
+    "jarFileModificationDate": "2014-10-08T12:40:55.769+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "io.selendroid.selendroid-client",
+    "version": {
+      "major": 0,
+      "minor": 10,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea24227850fbaa97ebce61c1f8b5e2780db3023e",
+    "jarFileModificationDate": "2015-03-02T15:56:08.879+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selendroid-client-0.10.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.jetty.websocket",
+    "version": {
+      "major": 8,
+      "minor": 1,
+      "micro": 8,
+      "qualifier": "v20121106"
+    },
+    "jarFileFingerprint": "8b722799be12c967cddca055fb8a710b139c5d42",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\jetty-websocket-8.1.8.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hamcrest-library-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4785a3c21320980282f9f33d0d1264a69040538f",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\hamcrest-library-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpcore",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f91b7a4aadc5cf486df6e4634748d7dd7a73f06d",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\httpcore-4.3.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jna-platform-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b58af397fd3156d700ad5016bcdd307a7a62ef5",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\jna-platform-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "selenium-java-2.37.0-srcs",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bbd401c9853b99e23edb542df338e878527b971c",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selenium-java-2.37.0-srcs.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.testng",
+    "version": {
+      "major": 6,
+      "minor": 8,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "82544999b32ed40cc98ca0eef40fcaf3186b1711",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\testng-6.8.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.james.apache-mime4j",
+    "version": {
+      "major": 0,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "945007627e8d12275d755081a9e609c018e1210d",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\apache-mime4j-0.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ecb6e1f8e4b0e84c4b886c2f14a1500caf309757",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\gson-2.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "selenium-java-2.37.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d165974a72839aeaa8d07056cb7e37f11ce5fb99",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selenium-java-2.37.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "90a3822c38ec8c996e84c16a3477ef632cbc87a3",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-lang3-3.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson.source",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e1e42491392da97b03c5d5c2a3395d41d7774f0d",
+    "jarFileModificationDate": "2013-04-12T14:43:44+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.3-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson.source",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "10ab84ba225b583b10713f57c04270c918ef162b",
+    "jarFileModificationDate": "2013-05-13T14:39:02+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.4-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gson-2.2.3-javadoc",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dbe505b05592df1f4d6fc21f244b878e6481a593",
+    "jarFileModificationDate": "2013-04-12T14:43:50+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.3-javadoc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "htmlunit-core-js-2.15",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a16512d2d032155cfa84fa1dcce79fe0aaa8b56a",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\htmlunit-core-js-2.15.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gson-2.2.4-javadoc",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "be47c2ee6e9ab0668874e4c6c4933c0637f473d8",
+    "jarFileModificationDate": "2013-05-13T14:39:08+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.4-javadoc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sac-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cdb2dcb4e22b83d6b32b93095f644c3462739e82",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\sac-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "io.selendroid.selendroid-standalone",
+    "version": {
+      "major": 0,
+      "minor": 10,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3da048c2f7ed36baf29ba166a46e274f2d66eb70",
+    "jarFileModificationDate": "2015-03-02T15:58:39.590+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selendroid-standalone-0.10.0-with-dependencies.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 15,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\guava-15.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "serializer-2.7.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b4b18df434451249bb65a63f2fb69e215a6a020",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\serializer-2.7.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "operadriver-1.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6450796be7634912ead1cf7e158499e8d46d17e5",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\operadriver-1.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "phantomjsdriver-1.0.4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f3680fd51b1b781dca94ecbe3c25e3b0beccd4d9",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\phantomjsdriver-1.0.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jna-3.4.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f4e1672a22b63e37a5d929603cb67e093e3729d5",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\jna-3.4.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7ec1c304ef304ad19630b0905e8a4e110a19b62e",
+    "jarFileModificationDate": "2014-10-08T12:40:55.622+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpclient",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0ec13f6423eb6d5858e229939a2bc118473ef94c",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\httpclient-4.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e15f5140cfdafc6750e44a3c6786879d28ccbcdb",
+    "jarFileModificationDate": "2014-10-08T12:40:55.766+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "xalan-2.7.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "75f1d83ce27bab5f29fff034fc74aa9f7266f22a",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\xalan-2.7.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "mssqlserver",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "35c47b25ceca00e421248b3774f051bd5fb6f66c",
+    "jarFileModificationDate": "2014-05-28T14:59:00.066+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\mssqlserver.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "cglib-nodep-2.1_3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "58d3be5953547c0019e5704d6ed4ffda3b0c7c66",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\cglib-nodep-2.1_3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "198aedf068b3039db21280e2bc7fbaddbe516417",
+    "jarFileModificationDate": "2014-10-08T12:40:55.714+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-lang3-3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4ffd6503a0d90ff5b23de9c58555f383ba6d0534",
+    "jarFileModificationDate": "2014-10-08T12:40:59.113+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5e2c12ffab605a78f773e42b2497a9569316346f",
+    "jarFileModificationDate": "2014-10-08T12:40:55.717+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "cglib-nodep-2.1_3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "58d3be5953547c0019e5704d6ed4ffda3b0c7c66",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\cglib-nodep-2.1_3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.exec",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "07dfdf16fade726000564386825ed6d911a44ba1",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-exec-1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "msutil",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "faf578bb1c45e2dea9f653ca4a8d8c1b93a1f1e5",
+    "jarFileModificationDate": "2014-05-28T15:49:02.273+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\msutil.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "973e832af433b44c3ed11c426f2f390b29f3f3f8",
+    "jarFileModificationDate": "2013-05-13T14:39:06+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b7f0fc8f61ecadeb3695f0b9464755eee44374d4",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-codec-1.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.exec",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "07dfdf16fade726000564386825ed6d911a44ba1",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-exec-1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "io.selendroid.selendroid-standalone",
+    "version": {
+      "major": 0,
+      "minor": 8,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1a2efa3c226e1f7f6195584f2c3f4804ad16be83",
+    "jarFileModificationDate": "2015-03-03T13:25:03.559+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selendroid-standalone-0.8.0-with-dependencies.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "serializer-2.7.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b4b18df434451249bb65a63f2fb69e215a6a020",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\serializer-2.7.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c4791a212dbb87138293fa69b62f5cab68061025",
+    "jarFileModificationDate": "2014-10-08T12:40:58.360+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "29584939a9f5357bb6efc714110f2f1a0a7b0748",
+    "jarFileModificationDate": "2014-10-08T12:40:55.561+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "htmlunit-core-js-2.13",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b6132b7b7c0667d2df706f53f1e2eec9fb97aa3a",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\htmlunit-core-js-2.13.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.inject",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0f87dd9246d72817d4b3324960a17d6bce930308",
+    "jarFileModificationDate": "2011-03-24T21:56:00+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\guice-3.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.io",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-io-2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "nekohtml-1.9.19",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8a49406347d345bade1e6152e05e5f4dcbf7def5",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\nekohtml-1.9.19.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.ini4j.ini4j",
+    "version": {
+      "major": 0,
+      "minor": 5,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "16561cb11c221b5928119e10d7636c95ee5c960d",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\ini4j-0.5.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xml-apis-1.4.01",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3789d9fada2d3d458c4ba2de349d48780f381ee3",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\xml-apis-1.4.01.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpmime",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 6,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf8bacbf0d476c7f2221f861269365b66447f7ec",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\httpmime-4.3.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a06977f75bd0fce24a8853c9d1596d3fe0b91d9e",
+    "jarFileModificationDate": "2014-10-08T12:40:55.551+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpclient",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 6,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c47155e3e6c9a41a28db36680b828ced53b8af4",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\httpclient-4.3.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpcore",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "11393498b38e9695d0850cac26fde5613ae268b9",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\httpcore-4.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sourceforge.cssparser.cssparser",
+    "version": {
+      "major": 0,
+      "minor": 9,
+      "micro": 11,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "05672f8293ef9cfa6cc5444f875ae2eb66d38d44",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\cssparser-0.9.11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "849157c86c042ae2eb2c49c4dab4f266bdd09d16",
+    "jarFileModificationDate": "2014-10-08T12:40:55.926+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.yaml.snakeyaml",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "921005b6628821c9a29de6358917a82d1e3dfa94",
+    "jarFileModificationDate": "2015-01-01T13:48:30.953+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selenium-server-standalone-2.42.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.james.apache-mime4j",
+    "version": {
+      "major": 0,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "945007627e8d12275d755081a9e609c018e1210d",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\apache-mime4j-0.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "selendroid-standalone-0.7.0-with-dependencies",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a5f3b5eb844a0304be549d6f2eb2ee8c6fba5806",
+    "jarFileModificationDate": "2014-01-11T15:46:07.789+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selendroid-standalone-0.7.0-with-dependencies.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit-dep-4.11",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ad16b17a5c087c86f0d9b527fffc9969692ed8a9",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\junit-dep-4.11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sqljdbc4-2.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ff439c53190a987d327165dec8b148f670cb7ca8",
+    "jarFileModificationDate": "2014-01-20T17:58:12.485+05:30",
+    "location": "E:\\Testing eclipse\\day1\\src\\lib\\sqljdbc4-2.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sourceforge.htmlunit.htmlunit",
+    "version": {
+      "major": 2,
+      "minor": 13,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1868243ebddae3c1a6b8a8c5beb832be14cc34ed",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\htmlunit-2.13.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit-dep-4.11",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ad16b17a5c087c86f0d9b527fffc9969692ed8a9",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\junit-dep-4.11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hamcrest-library-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4785a3c21320980282f9f33d0d1264a69040538f",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\hamcrest-library-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a183df20d3f455b83ddfbdd4b0eb5c016c226970",
+    "jarFileModificationDate": "2014-10-08T12:40:55.645+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "nekohtml-1.9.21",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6841b177ab20385a9e9e0c83be3bf8711a6bc5e4",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\nekohtml-1.9.21.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jxl-2.6.12",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7faf62e0697f7a88954622dfe8c8de33ed142ac7",
+    "jarFileModificationDate": "2012-10-22T14:09:32+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\jxl-2.6.12.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit-4.11",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0",
+    "jarFileModificationDate": "2014-07-08T13:31:28.755+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\junit-4.11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "reportng-1.1.4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea48fe20bcfe5766b5b04792c72a73f1b21e02c9",
+    "jarFileModificationDate": "2013-06-10T23:55:22+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\reportng-1.1.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bsh-1.3.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1fed35193d56470f46c0fb33917e3e82c0c42358",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\bsh-1.3.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "837fe46881ef47027ffd6b03ab6a895348cdc8b3",
+    "jarFileModificationDate": "2014-10-08T12:40:58.442+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "sqlserver-1.0.809",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "725c90000d081f7cffdcf2f52b31708e99fa6d2c",
+    "jarFileModificationDate": "2007-08-24T15:31:44+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\sqlserver-1.0.809.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sac-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cdb2dcb4e22b83d6b32b93095f644c3462739e82",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\sac-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "46779c0ac854555b8f541cbb5293054e1db69d1f",
+    "jarFileModificationDate": "2014-12-30T14:49:37.581+05:30",
+    "location": "C:\\Users\\Raviteja\\AppData\\Local\\Android\\sdk\\tools\\support\\annotations.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hamcrest-core-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "42a25dc3219429f0e5d060061f71acb49bf010a0",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\hamcrest-core-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.ini4j.ini4j",
+    "version": {
+      "major": 0,
+      "minor": 5,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "16561cb11c221b5928119e10d7636c95ee5c960d",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\ini4j-0.5.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "selenium-java-2.45.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6166f695a2777410caac99d6fe759655701dcd14",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\selenium-java-2.45.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "velocity-dep-1.4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1df5193d3dd66a310b32828c547cd9e163b98df",
+    "jarFileModificationDate": "2013-06-10T23:55:22+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\velocity-dep-1.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.jetty.websocket",
+    "version": {
+      "major": 8,
+      "minor": 1,
+      "micro": 8,
+      "qualifier": "v20121106"
+    },
+    "jarFileFingerprint": "8b722799be12c967cddca055fb8a710b139c5d42",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\jetty-websocket-8.1.8.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.netty",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 7,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "811465e6dfc89d7c78d21de6a9747b6046cb5403",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\netty-3.5.7.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 18,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cce0823396aa693798f8882e64213b1772032b09",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\guava-18.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.collections",
+    "version": {
+      "major": 3,
+      "minor": 2,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "761ea405b9b37ced573d2df0d1e3a4e0f9edc668",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-collections-3.2.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.io",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-io-2.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.hamcrest.core",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": "v201303031735"
+    },
+    "jarFileFingerprint": "5ed9fe32ab1d2b18bec7cac0a044090100f327ba",
+    "jarFileModificationDate": "2013-09-19T05:07:16+05:30",
+    "location": "D:\\raviteja\\Softwares\\eclipse\\plugins\\org.hamcrest.core_1.3.0.v201303031735.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.beust.jcommander",
+    "version": {
+      "major": 1,
+      "minor": 29,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b2072b3ef59c398c0569a8735820af5345df7af0",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\jcommander-1.29.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xercesImpl-2.10.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9161654d2afe7f9063455f02ccca8e4ec2787222",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\xercesImpl-2.10.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "operadriver-1.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6450796be7634912ead1cf7e158499e8d46d17e5",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\operadriver-1.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "88c38acf8db64f727ea6cdb030761b5df737535b",
+    "jarFileModificationDate": "2014-10-08T12:40:57.686+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ce04e34240f674bc72680f8b843b1457383161a",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-codec-1.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hamcrest-core-1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "42a25dc3219429f0e5d060061f71acb49bf010a0",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\hamcrest-core-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a9df7566d90b813ed0f8501a50d0a9e0da1c9603",
+    "jarFileModificationDate": "2014-10-08T12:40:55.831+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "msbase",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f16af980d83e2bea38de3ded1ad3f687718ab4a8",
+    "jarFileModificationDate": "2014-05-28T14:59:04.155+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\msbase.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.protobuf.protobuf-java",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7b36b2a47a888ec68065277fd28155909358e556",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\protobuf-java-2.4.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "65b3399064b1de3c40a04fbf57844c548049cfad",
+    "jarFileModificationDate": "2014-10-08T12:40:55.771+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "126d1ea978aa87b87c90f32beac4dc966a318982",
+    "jarFileModificationDate": "2013-04-12T14:43:48+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\gson-2.2.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.gorillalogic.monkeytalk.monkeytalk-core",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 10,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "38cba311c4043adbd49a25b7444f8ac923ef674f",
+    "jarFileModificationDate": "2014-12-13T18:31:44+05:30",
+    "location": "D:\\monkeytalkpro-2.0.10-beta-win64 (1)\\monkeytalkpro\\samples\\android\\Demo1\\libs\\monkeytalk-agent-2.0.10.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-logging",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-logging-1.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.json.json",
+    "version": {
+      "major": 20080701,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d652f102185530c93b66158b1859f35d45687258",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\json-20080701.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.protobuf.protobuf-java",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7b36b2a47a888ec68065277fd28155909358e556",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\protobuf-java-2.4.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xml-apis-1.4.01",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3789d9fada2d3d458c4ba2de349d48780f381ee3",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\xml-apis-1.4.01.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2567fcef5bb2ca93e22a9df4f2dbf895daeb3e33",
+    "jarFileModificationDate": "2014-12-30T16:25:23.141+05:30",
+    "location": "C:\\Users\\Raviteja\\AppData\\Local\\Android\\sdk\\platforms\\android-8\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpmime",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f7899276dddd01d8a42ecfe27e7031fcf9824422",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\httpmime-4.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.aspectj.runtime",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 3,
+      "qualifier": "20130613144500-a"
+    },
+    "jarFileFingerprint": "7fe8e7888d64fd8eca11a34c123aefe245445516",
+    "jarFileModificationDate": "2015-02-27T11:03:38.499+05:30",
+    "location": "D:\\raviteja\\Softwares\\eclipse\\plugins\\org.aspectj.runtime_1.7.3.20130613144500-a.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xercesImpl-2.11.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9bb329db1cfc4e22462c9d6b43a8432f5850e92c",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\xercesImpl-2.11.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "selenium-java-2.45.0-srcs",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4d159e35b56b03de4350e9b3acf9212ef0ef82c6",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\selenium-java-2.45.0-srcs.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.yaml.snakeyaml",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "34a4bd7bc4b83736af54c6cd1d63a2d2a02dccda",
+    "jarFileModificationDate": "2013-09-14T07:23:46+05:30",
+    "location": "D:\\raviteja\\Softwares\\eclipse\\plugins\\org.testng.eclipse_6.8.6.20141201_2240\\lib\\testng.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0",
+    "jarFileModificationDate": "2013-05-17T12:05:12+05:30",
+    "location": "D:\\raviteja\\Softwares\\eclipse\\plugins\\org.junit_4.11.0.v201303080030\\junit.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.jxpath",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c22d7d0f0f40eb7059a23cfa61773a416768b137",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-jxpath-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\commons-logging-1.1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "io.appium.java-client",
+    "version": {
+      "major": 1,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0b8aed9e61a14c4e5d7dc1fff4a16a91fe6093d5",
+    "jarFileModificationDate": "2014-12-26T11:47:12.262+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\java-client-1.5.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.netty",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 7,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "811465e6dfc89d7c78d21de6a9747b6046cb5403",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\netty-3.5.7.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "13a39cdf6a742beb8ed56afe9a96cf4574fdd54d",
+    "jarFileModificationDate": "2014-10-08T12:40:55.574+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "io.selendroid.selendroid-standalone",
+    "version": {
+      "major": 0,
+      "minor": 14,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "12d2a442cca773e56bbcbac88bd2f5877c35fea7",
+    "jarFileModificationDate": "2015-03-02T15:52:47.893+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\selendroid-standalone-0.14.0-with-dependencies.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9a1284417f00f1a4c77e67d71a6fbea2eeaf5d7c",
+    "jarFileModificationDate": "2014-10-08T12:40:55.823+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "phantomjsdriver-1.2.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c5106c0223512a467c03b26f8a31e4027ddaa495",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\phantomjsdriver-1.2.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3a19c7fc6f8bd0c19d2b5829878d4881365d56fc",
+    "jarFileModificationDate": "2014-10-08T12:40:58.063+05:30",
+    "location": "C:\\Program Files\\Java\\jre8\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.jxpath",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c22d7d0f0f40eb7059a23cfa61773a416768b137",
+    "jarFileModificationDate": "2013-10-18T13:15:10+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\commons-jxpath-1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xalan-2.7.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "75f1d83ce27bab5f29fff034fc74aa9f7266f22a",
+    "jarFileModificationDate": "2013-10-18T13:15:12+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\libs\\xalan-2.7.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sqljdbc4-2.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ff439c53190a987d327165dec8b148f670cb7ca8",
+    "jarFileModificationDate": "2013-03-21T13:23:56+05:30",
+    "location": "D:\\raviteja\\Downloads\\selenium-2.37.0\\sqljdbc4-2.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sourceforge.cssparser.cssparser",
+    "version": {
+      "major": 0,
+      "minor": 9,
+      "micro": 14,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "25f3d437b3cd4d4e6fab904d18967c64e4ab671d",
+    "jarFileModificationDate": "2015-02-26T16:00:10+05:30",
+    "location": "C:\\Users\\Raviteja\\Downloads\\selenium-java-2.45.0\\selenium-2.45.0\\libs\\cssparser-0.9.14.jar",
+    "javaRuntime": false
+  }
+]

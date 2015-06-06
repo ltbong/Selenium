@@ -1,0 +1,115 @@
+
+import java.awt.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+		 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Web_Obts {
+
+	public Web_Obts(WebElement findElement) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		
+
+		        // declaration and instantiation of objects/variables
+	
+		        WebDriver driver = new FirefoxDriver();
+		 
+		        String baseUrl = "http://sntonline.in/";
+
+		        String expectedTitle = "Login - Bus Administration";
+		 
+		        String actualTitle = "";
+		
+		        // launch Firefox and direct it to the Base URL
+		 
+		        driver.get(baseUrl);
+		 
+		 
+		 
+		        // get the actual value of the title
+		 
+		        actualTitle = driver.getTitle();
+		try{
+		        driver.findElement(By.xpath(".//*[@id='header']/div/ul/li[4]/a")).click();
+				 driver.findElement(By.name("UserName")).sendKeys("admin");
+				 driver.findElement(By.name("PassWord")).sendKeys("Design_20");
+				 driver.findElement(By.className("btnprintnow")).submit();
+				 driver.findElement(By.name("ctl00$ContentPlaceHolder1$FromDatePicker$dateInput")).sendKeys("01-12-2013");
+				 //Thread.sleep(6000);
+				 driver.findElement(By.name("ctl00$ContentPlaceHolder1$ToDatePicker$dateInput")).sendKeys("24-01-2014");
+				
+				 //Thread.sleep(6000);
+				 
+				 driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Arrow")).click();
+				
+				
+				//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+				//WebElement List = driver.findElement(By.className("rcbList"));
+				//Get Item Three
+				//WebElement input = (new WebDriverWait(driver, 32)).until(ExpectedConditions.presenceOfElementLocated(By.className("rcbList")));
+			    //WebElement Item = List.findElement(By.className("rcbHovered"));
+			    //System.out.println(Item);
+			   
+				//Item.click(); 
+				//WebElement select = driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input"));
+			     //driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")).sendKeys("g");
+				 //driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")).click();
+				 
+		
+				 
+				 /*Select depotName = new Select(driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")));
+				 depotName.selectByVisibleText("GANGTOK");*/
+		 
+				
+		}
+		catch(Exception ex) {
+			ex.printStackTrace();
+		}
+		      
+		/*
+		 
+		         * compare the actual title of the page witht the expected one and print
+		 
+		         * the result as "Passed" or "Failed"
+		 
+		         */
+		 
+		        if (actualTitle.contentEquals(expectedTitle)){
+		 
+		            System.out.println("Test Passed!");
+		 
+		        } else {
+		 
+		            System.out.println("Test Failed");
+		 
+		        }
+
+		        
+
+		       //close Firefox
+
+		        driver.close();
+		 
+		        
+		 
+		        // exit the program explicitly
+
+		        System.exit(0);
+		 
+		    }
+		
+
+	}
+
+

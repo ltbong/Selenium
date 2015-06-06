@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing suite :Suite-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Batch-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in example.TestListener]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test Batch-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to end executing suite :Suite-Listeners]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite-Listeners" duration-ms="24" started-at="2015-06-01T12:48:21Z" finished-at="2015-06-01T12:48:21Z">
+    <groups>
+    </groups>
+    <test name="Batch-Listeners" duration-ms="24" started-at="2015-06-01T12:48:21Z" finished-at="2015-06-01T12:48:21Z">
+      <class name="example.TestListener">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.TestListener@769c9116]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2015-06-01T18:18:21Z" finished-at="2015-06-01T18:18:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:example.TestListener@769c9116]" name="main" duration-ms="8" started-at="2015-06-01T18:18:21Z" finished-at="2015-06-01T18:18:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.main]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in example.TestListener]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.TestListener@769c9116]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-06-01T18:18:21Z" finished-at="2015-06-01T18:18:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- example.TestListener -->
+    </test> <!-- Batch-Listeners -->
+  </suite> <!-- Suite-Listeners -->
+</testng-results>

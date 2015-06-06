@@ -1,0 +1,151 @@
+package validationa_obts;
+
+
+import java.awt.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+		 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Validations {
+
+	/*public Web_Obts(WebElement findElement) {
+		// TODO Auto-generated constructor stub
+	}*/
+
+	public static void main(String[] args) throws InterruptedException  {
+		// TODO Auto-generated method stub
+		
+
+		        // declaration and instantiation of objects/variables
+		 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\ravitejaseetha\\Downloads\\selenium-2.37.0\\chromedriver\\chromedriver.exe");
+         
+         //WebDriver driver = new FirefoxDriver(); 
+         //WebDriver driver = new ChromeDriver();
+		        WebDriver driver = new FirefoxDriver();
+		 
+		        String baseUrl = "http://202.153.45.8/OnLineBusBookSystem/";
+		        //String baseUrl = "http://sntonline.in";
+
+		        //String expectedTitle = "Enter From";
+		 
+		       // String actualTitle = "Enter";
+		
+		        // launch Firefox and direct it to the Base URL
+		 
+		        driver.get(baseUrl);
+		        driver.findElement(By.id("search")).click();
+		        String sst = driver.findElement(By.xpath(".//*[@id='form-search']/p[1]/span[2]")).getText();
+		        String sst1 = driver.findElement(By.xpath(".//*[@id='form-search']/p[2]/span[2]")).getText();
+		        String sst2 = driver.findElement(By.xpath(".//*[@id='form-search']/p[3]/span[2]")).getText();
+		        String sst3 = driver.findElement(By.xpath(".//*[@id='form-search']/p[4]/span[2]")).getText();
+		 
+		        System.out.println("Validation for from combo box : "+sst);
+		        System.out.println("length :"+sst.length());
+		        System.out.println("Validation for to combo box :"+sst1);
+		        System.out.println("Validation for departure date picker : "+sst2);
+		        System.out.println("Validation for seats combo box : "+sst3);
+		        driver.findElement(By.name("from_input")).sendKeys("GANGTOK");
+		        driver.findElement(By.name("to_input")).sendKeys("NAMCHI");
+		        driver.findElement(By.id("date")).sendKeys("15-05-2014");
+		        driver.findElement(By.name("NumberOfSeats_input")).sendKeys("1");
+		        driver.findElement(By.id("search")).click();
+		        Thread.sleep(1000);
+                driver.findElement(By.xpath(".//*[@id='schedulesgrid']/div[2]/table/tbody/tr[2]/td[1]/a")).click();
+                driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+                driver.findElement(By.xpath(".//*[@id='place']/li[1]")).click();
+                driver.findElement(By.xpath(".//*[@id='close']")).click();
+                WebElement selectgender = driver.findElement(By.name("Title_ADT_1"));
+                selectgender.sendKeys("Mr");
+                driver.findElement(By.id("fname_1")).sendKeys("Sachin");
+                driver.findElement(By.id("age_1")).sendKeys("40");
+                driver.findElement(By.name("email")).sendKeys("raviteja.seetha@technoidentity.com");
+                driver.findElement(By.name("mobile")).sendKeys("9032552879");
+                driver.findElement(By.className("btnpaynow")).click();
+		      
+               /*String str = driver.findElement(By.xpath(".//*[@id='emptymessage']/b")).getText();
+               Thread.sleep(5000);
+                System.out.println("Message when no schedules found :- "+str);*/
+		        // get the actual value of the title
+		 
+		       // actualTitle = driver.getTitle();
+
+		       // driver.findElement(By.xpath(".//*[@id='header']/div/ul/li[4]/a")).click();
+				// driver.findElement(By.name("UserName")).sendKeys("admin");
+				// driver.findElement(By.name("PassWord")).sendKeys("Design_20");
+				// driver.findElement(By.className("btnprintnow")).submit();
+				// driver.findElement(By.name("ctl00$ContentPlaceHolder1$FromDatePicker$dateInput")).sendKeys("01-12-2013");
+				// WebElement input = (new WebDriverWait(driver, 32)).until(ExpectedConditions.presenceOfElementLocated(By.id("ctl00_ContentPlaceHolder1_ToDatePicker_dateInput")));
+				// driver.findElement(By.name("ctl00$ContentPlaceHolder1$ToDatePicker$dateInput")).sendKeys("24-01-2014");
+				
+				
+				// driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Arrow")).click();
+				
+				
+				//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+				//WebElement List = driver.findElement(By.className("rcbList"));
+				//Get Item Three
+				
+			    //WebElement Item = List.findElement(By.className("rcbHovered"));
+			    //System.out.println(Item);
+			   
+				//Item.click(); 
+				//WebElement select = driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input"));
+			     //driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")).sendKeys("g");
+				 //driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")).click();
+				 
+		
+				 
+				 /*Select depotName = new Select(driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")));
+				 depotName.selectByVisibleText("GANGTOK");*/
+		 
+
+		
+	
+		      
+		/*
+		 
+		         * compare the actual title of the page witht the expected one and print
+		 
+		         * the result as "Passed" or "Failed"
+		 
+		         */
+		 
+		       /* if (sst.contentEquals(expectedTitle)){
+		 
+		            System.out.println("Test Passed!Validation for Leaving from combo box : "+sst );
+		 
+		        } else{
+		        	
+		      
+		 
+		            System.out.println("Test Failed");
+		        }*/
+		 
+		        
+
+		        
+
+		       //close Firefox
+
+		      //  driver.close();
+		 
+		        
+		 
+		        // exit the program explicitly
+
+		        //System.exit(0);
+		 
+		    }
+		
+
+	}
+
+

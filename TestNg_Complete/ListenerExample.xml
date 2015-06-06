@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Test suite 1">
+    <listeners>
+        <listener class-name ="example.ListenerClass"/>
+    </listeners>
+    <test name = "Tesng logs sample" preserve-order = "true">
+        <classes>
+            <class name="example.LoggingClass">
+                <methods>
+                    <include name ="methodAddingNumbers"/>
+                    <include name ="dividedByZero"/>
+                    <include name ="methodSkip"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

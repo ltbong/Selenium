@@ -1,0 +1,18 @@
+package example;
+
+import com.thoughtworks.selenium.DefaultSelenium;
+
+public class TestBrokenLink {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DefaultSelenium selenium = new DefaultSelenium("localhost", 4444, "*Chrome", "http://www.yahoo.com");
+		selenium.start();
+		selenium.open("/");
+		//WebDriver driver = new ChromeDriver();
+		
+		int linkCount = selenium.getXpathCount("//a").intValue();
+		System.out.println("No of links "+linkCount);
+	}
+
+}

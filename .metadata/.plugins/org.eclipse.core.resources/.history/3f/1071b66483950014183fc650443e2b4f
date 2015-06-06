@@ -1,0 +1,9 @@
+package signup;
+
+import org.testng.annotations.Test;
+
+public class FacebookRegister {
+  @Test
+  public void f() {
+  }
+}

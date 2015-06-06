@@ -1,0 +1,103 @@
+package database;
+import java.io.FileOutputStream;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+//import junit.framework.Assert;
+import jxl.Workbook;
+import jxl.write.Label;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.junit.Assert;
+
+
+
+
+
+
+//import com.mysql.jdbc.ResultSet;
+//import com.mysql.jdbc.Statement;
+import com.thoughtworks.selenium.SeleneseTestBase;
+
+
+public class NewTest extends SeleneseTestBase{
+     WebDriver driver;
+     String url ="";
+     
+     String id;
+@BeforeTest
+public void setUp() throws Exception{
+      //driver = new FirefoxDriver();
+     //url = "http://www.sntonline.in";
+     //driver.get(url);
+     //driver.findElement(By.linkText("Employee Login")).click();
+}
+@Test
+public void CreateDB() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+    	 
+     try {
+         int count = 0;
+         Class.forName("com.microsoft.jdbc.sqlserver.SQLServerDriver");
+         String userName ="sa";
+         String password ="Design_20";
+
+         String url ="jdbc:sqlserver://192.168.0.11;instanceName=technoid;DatabaseName=PTS;";
+         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
+         
+         Connection con = DriverManager.getConnection(url, userName, password);
+         Statement statement = con.createStatement();
+         ResultSet resultSet = statement.executeQuery("SELECT COUNT(distinct FirstName) FROM Tourists");
+         while(resultSet.next())
+         {
+        	count = resultSet.getInt(1);      
+         }
+         System.out.println("Number of distinct tourists:"+count);
+         ResultSet resultSet1 = statement.executeQuery("SELECT distinct FirstName FROM Tourists");
+         int numrows = resultSet1.getMetaData().getColumnCount();
+         FileOutputStream f = new FileOutputStream("C:\\Users\\Raviteja\\Desktop\\tourists.xls",true);
+         WritableWorkbook book = Workbook.createWorkbook(f); 
+         WritableSheet sheet = book.createSheet("output", 1);
+         while(resultSet1.next())
+         {
+        	 id = resultSet1.getString("FirstName");
+             System.out.println("Tourist name :" +id);
+             Label l = new Label(0, numrows-1,id);
+             sheet.addCell(l);
+             numrows++;
+         }
+         book.write(); 
+         book.close(); 
+         ResultSet resultSet2 = statement.executeQuery("select * from Tourists");
+         
+         while (resultSet2.next()) {
+         String id1 = resultSet2.getString("FirstName");
+         if(id1.equals("kohli"))
+         {
+        	 System.out.println("Tourist with name "+id1+" Exists");
+         }
+         //Assert.assertEquals("teja", id);
+         else
+         {
+        	 System.out.println("Doesn't exist");
+         }
+         }
+         
+     }
+    	 catch (Exception e)
+         {
+             e.printStackTrace();
+         }
+    	 
+     }      
+}

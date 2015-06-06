@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53813" started-at="2014-11-28T12:44:07Z" finished-at="2014-11-28T12:45:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53813" started-at="2014-11-28T12:44:07Z" finished-at="2014-11-28T12:45:01Z">
+      <class name="PTS.Report">
+        <test-method status="PASS" signature="start()[pri:0, instance:PTS.Report@725bef66]" name="start" is-config="true" duration-ms="2333" started-at="2014-11-28T18:14:07Z" finished-at="2014-11-28T18:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:PTS.Report@725bef66]" name="loginPage" duration-ms="39973" started-at="2014-11-28T18:14:10Z" finished-at="2014-11-28T18:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="afterReport()[pri:0, instance:PTS.Report@725bef66]" name="afterReport" is-config="true" duration-ms="7" started-at="2014-11-28T18:14:50Z" finished-at="2014-11-28T18:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterReport -->
+        <test-method status="PASS" signature="monthlyReport()[pri:0, instance:PTS.Report@725bef66]" name="monthlyReport" duration-ms="4281" started-at="2014-11-28T18:14:50Z" finished-at="2014-11-28T18:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthlyReport -->
+        <test-method status="PASS" signature="afterReport()[pri:0, instance:PTS.Report@725bef66]" name="afterReport" is-config="true" duration-ms="4" started-at="2014-11-28T18:14:54Z" finished-at="2014-11-28T18:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterReport -->
+        <test-method status="PASS" signature="yearlyReport()[pri:0, instance:PTS.Report@725bef66]" name="yearlyReport" duration-ms="4246" started-at="2014-11-28T18:14:54Z" finished-at="2014-11-28T18:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearlyReport -->
+        <test-method status="PASS" signature="afterReport()[pri:0, instance:PTS.Report@725bef66]" name="afterReport" is-config="true" duration-ms="3" started-at="2014-11-28T18:14:58Z" finished-at="2014-11-28T18:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterReport -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:PTS.Report@725bef66]" name="logout" is-config="true" duration-ms="2938" started-at="2014-11-28T18:14:58Z" finished-at="2014-11-28T18:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- PTS.Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

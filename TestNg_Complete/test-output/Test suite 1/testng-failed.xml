@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test suite 1]">
+  <listeners>
+    <listener class-name="example.TakeScreenshotExample"/>
+  </listeners>
+  <test name="unit test(failed)">
+    <classes>
+      <class name="example.DataProviderExcel">
+        <methods>
+          <include name="VerifyInvalidLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- example.DataProviderExcel -->
+    </classes>
+  </test> <!-- unit test(failed) -->
+</suite> <!-- Failed suite [test suite 1] -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Suite 1" parallel="classes" thread-count="2">
+    <test name ="Regression">
+        <classes>
+            <class name ="example.ParallelExecution"/>
+            <class name ="example.SkipTest"/>
+        </classes>
+    </test>
+</suite>

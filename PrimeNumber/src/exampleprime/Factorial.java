@@ -1,0 +1,37 @@
+package exampleprime;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner inp = new Scanner(System.in);
+System.out.println("Enter number :");
+int input = inp.nextInt();
+//fact(input);
+/*int i=1;
+int j=1;
+while(input >0)
+{
+	i=input;
+	j*=i;
+	input--;
+}*/
+System.out.println("Factiorial for the given number : "+fact(input));
+inp.close(); 
+
+	}
+
+	static int fact(int b){
+		if (b<=1){
+			return 1;
+			
+		}
+		else{
+			return b*fact(b-1);
+			}
+		
+		}
+	}
+

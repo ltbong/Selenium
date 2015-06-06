@@ -1,0 +1,22 @@
+<suite name="Suite" parallel="classes" thread-count="1"> 
+   <test name="Test1">
+   <classes> 
+          <class name="modules.TouristRegistration"/>   
+   </classes>
+  </test>  
+ <test name="Test2">
+  <classes> 
+          <class name="modules.AllReports"/> 
+   </classes>
+  </test> 
+  <test name="Test3">
+      <classes>
+          <class name="modules.Fro"/>
+      </classes>
+  </test>
+  <test name ="Test4">
+      <classes>
+          <class name="modules.TouropRegistration"/>
+      </classes>
+  </test>
+</suite> 

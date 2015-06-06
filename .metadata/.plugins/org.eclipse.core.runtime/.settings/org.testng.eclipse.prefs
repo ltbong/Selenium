@@ -1,0 +1,5 @@
+Excel.outdir=/test-output
+Parallel_Execution.outdir=/test-output
+TestNg_Complete.outdir=/test-output
+Testng_Example1.outdir=/test-output
+eclipse.preferences.version=1

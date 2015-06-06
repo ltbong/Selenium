@@ -1,0 +1,25 @@
+package example;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.thoughtworks.selenium.DefaultSelenium;
+
+public class TestBrokenLink {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.setProperty("webdriver.chrome.driver", "D:\\raviteja\\Downloads\\selenium-2.37.0\\chromedriver\\chromedriver.exe");
+		DefaultSelenium selenium = new DefaultSelenium("localhost", 4444, "*firefox", "http://www.google.com");
+		selenium.start();
+		selenium.open("/");
+		int linkCount = selenium.getXpathCount("//a").intValue();
+		System.out.println("No of links "+linkCount);
+		System.setProperty("webdriver.chrome.driver", "D:\\raviteja\\Downloads\\selenium-2.37.0\\chromedriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com");
+		int count = driver.findElements(By.tagName("a")).size();
+	}
+
+}

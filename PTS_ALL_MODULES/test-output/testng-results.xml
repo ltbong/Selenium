@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51368" started-at="2015-05-08T09:59:10Z" finished-at="2015-05-08T10:00:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51368" started-at="2015-05-08T09:59:10Z" finished-at="2015-05-08T10:00:01Z">
+      <class name="modules.TouristRegistration">
+        <test-method status="PASS" signature="start()[pri:0, instance:modules.TouristRegistration@3834d63f]" name="start" is-config="true" duration-ms="2938" started-at="2015-05-08T15:29:10Z" finished-at="2015-05-08T15:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="retrieveURL()[pri:0, instance:modules.TouristRegistration@3834d63f]" name="retrieveURL" duration-ms="24803" started-at="2015-05-08T15:29:13Z" finished-at="2015-05-08T15:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveURL -->
+        <test-method status="PASS" signature="addTourists()[pri:0, instance:modules.TouristRegistration@3834d63f]" name="addTourists" duration-ms="15537" started-at="2015-05-08T15:29:38Z" finished-at="2015-05-08T15:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTourists -->
+        <test-method status="PASS" signature="saveRAP()[pri:0, instance:modules.TouristRegistration@3834d63f]" name="saveRAP" duration-ms="8072" started-at="2015-05-08T15:29:53Z" finished-at="2015-05-08T15:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveRAP -->
+      </class> <!-- modules.TouristRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+package poly;
+
+public class Dog extends Animal implements Pet{
+public void dogNoise(){
+	System.out.println("Dog noise");
+}
+}

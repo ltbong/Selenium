@@ -1,0 +1,12 @@
+package exampleprime;
+
+public class LargestSmallest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int[] numbers = new int[]{32,43,53,54,32,65,63,98,43,23};
+int smallest = numbers[0];
+int largest = numbers[1];
+	}
+
+}

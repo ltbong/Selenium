@@ -1,0 +1,24 @@
+package day1;
+
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+public class JdbcTest {
+
+	public static void main(String[] args) {
+		String url1 ="jdbc:sqlserver://192.168.0.11/TECHNOID;databaseName=obts;instanceName=TECHNOID ;";
+		// Load Microsoft SQL Server JDBC driver
+		String dbClass = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+		Class.forName(dbClass).newInstance();
+		//Get connection to DB
+		Connection con = DriverManager.getConnection(url1, "sa", "Design_20");
+		//Create Statement
+		Statement stmt = (Statement) con.createStatement();
+		// method which returns the requested information as rows of data
+		ResultSet result = (ResultSet) stmt.executeQuery("select * from buses");
+
+	}
+
+}

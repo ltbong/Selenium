@@ -1,0 +1,70 @@
+package testng;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+import java.io.FileInputStream;
+
+
+//import java.io.IOException;
+import jxl.Sheet;
+import jxl.Workbook;
+
+
+//import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class Datadriven{
+Sheet s;
+WebDriver driver;
+@BeforeMethod
+public void setUp()
+{
+driver = new FirefoxDriver();
+System.out.println("im in setup");
+//driver.get("http:\\www.gmail.com");
+driver.get("https://raviteja/PtsWeb/touroperator/Create");
+}
+@Test
+public void searchGoogle() throws Exception
+{
+	System.out.println("im in searchgoogle");
+	FileInputStream  fi = new FileInputStream("C:\\Users\\ravitejaseetha\\Desktop\\DETAILS OF REGISTERED TRAVEL AGENT OF SIKKIM.xls");
+Workbook w = Workbook.getWorkbook(fi);
+s = w.getSheet(0);
+for(int row=6; row <=s.getRows();row++)
+{
+String name = s.getCell(1, row).getContents();
+
+
+driver.findElement(By.id("name")).sendKeys(name);
+String TravelAgency= s.getCell(2, row).getContents();
+//System.out.println("Password "+password);
+driver.findElement(By.id("travelagency")).sendKeys(TravelAgency);
+String registrationnumber= s.getCell(3, row).getContents();
+
+driver.findElement(By.id("travelagency")).sendKeys(registrationnumber);
+String phonenumber= s.getCell(6, row).getContents();
+
+driver.findElement(By.id("travelagency")).sendKeys(phonenumber);
+String address= s.getCell(9, row).getContents();
+
+driver.findElement(By.id("travelagency")).sendKeys(address);
+Thread.sleep(5000);
+
+}
+}
+@AfterTest
+public void tearDown()
+{
+	//driver.findElement(By.linkText("Logout")).click();
+
+}
+}

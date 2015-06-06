@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13135" started-at="2015-04-08T09:59:37Z" finished-at="2015-04-08T09:59:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13135" started-at="2015-04-08T09:59:37Z" finished-at="2015-04-08T09:59:50Z">
+      <class name="Groups.TestSample">
+        <test-method status="PASS" signature="f()[pri:0, instance:Groups.TestSample@2aafb23c]" name="f" duration-ms="13116" started-at="2015-04-08T15:29:37Z" finished-at="2015-04-08T15:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Groups.TestSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

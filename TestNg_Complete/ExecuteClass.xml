@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test suite 1" >
+    <test name="Test group 1">
+        <classes>
+            <class name = "example.ExecutePackage"/>
+            <class name = "example.DataProvideExample" />
+        </classes>
+    </test>
+</suite>

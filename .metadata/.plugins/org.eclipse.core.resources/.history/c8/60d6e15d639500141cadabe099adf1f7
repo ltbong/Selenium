@@ -1,0 +1,66 @@
+package testmobile;
+
+//import io.appium.java_client.AppiumDriver;
+//import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+import java.awt.List;
+import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Mtourism {
+
+public static void main(String[] args) throws MalformedURLException {
+// TODO Auto-generated method stub
+AppiumDriver driver;
+// File appDir = new File("C:\\Users\\bharath\\AppData\\Local\\Android\\android-sdk\\platform-tools\\");
+ //File app = new File(appDir, "com.whatsapp-2.11.448-450166-minAPI7.apk");
+// System.out.println(app);
+/* File appDir = new File("C:\\Users\\bharath\\AppData\\Local\\Android\\android-sdk\\platform-tools\\");
+ File app = new File(appDir, "com.whatsapp-2.11.448-450166-minAPI7.apk");
+ ;
+       DesiredCapabilities capabilities = new DesiredCapabilities();
+       capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+       capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+       capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
+       //there is no Selendroid
+       //capabilities.setCapability(MobileCapabilityType.APP_PACKAGE,"io.selendroid.testapp");
+       //capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY,"WebViewActivity");
+       driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),
+               capabilities);      
+      }*/
+ File appDir = new File("C:\\Users\\Raviteja\\AppData\\Local\\Android\\sdk\\platform-tools");
+ File app = new File(appDir, "com.mTourism-Signed.apk");
+ DesiredCapabilities capabilities = new DesiredCapabilities();
+ capabilities.setCapability("deviceName", "Mtourism");
+ capabilities.setCapability("platformVersion", "4.4.2");
+ capabilities.setCapability("platformName", "Android");
+ capabilities.setCapability("app", app.getAbsolutePath());
+ //capabilities.setCapability("appPackage", "com.Instapaper.android");
+ //capabilities.setCapability("appActivity", "com.Instapaper.android.,Main");
+ driver=new AppiumDriver(new URL("http://127.0.0.1:4725/wd/hub"),capabilities);
+driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+ //WebElement link=driver.findElement(By.linkText("Wild Life"));
+ //link.click();
+ driver.findElementByName("Places Of Interest").click();
+ driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+ 
+ 
+ 
+
+
+
+}
+}

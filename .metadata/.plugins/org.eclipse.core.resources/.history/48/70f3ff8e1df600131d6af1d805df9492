@@ -1,0 +1,97 @@
+//package test;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class Example_Report {
+
+	public static void main(String[] args)
+	{
+		try
+		{
+        WebDriver driver = new FirefoxDriver();
+        driver.get("http://www.sntonline.in/Employees/Account/Login");
+        driver.findElement(By.id("UserName")).sendKeys("admin");
+        driver.findElement(By.id("PassWord")).sendKeys("snt123");
+        driver.findElement(By.className("btnprintnow")).click();
+       //driver.findElement(By.linkText("Employees")).click(); 
+      // driver.findElement(By.id("ctl00_ContentPlaceHolder1_DesignationComboBox_Input")).click();
+       //driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input")).click();
+       //driver.findElement(By.id("ctl00_ContentPlaceHolder1_SearchButton_input")).click();
+      // driver.findElement(By.xpath(".//*[@id='menu1']/li[5]/a")).click();
+        driver.manage().window().maximize(); 
+      driver.findElement(By.linkText("Reports")).click();
+      driver.findElement(By.linkText("Daily Transactions")).click();
+      //driver.findElement(By.linkText("Revenue")).click();
+     // driver.findElement(By.linkText("E-Booking Tickets")).click();
+   // driver.findElement(By.id("ctl00_ContentPlaceHolder1_FromDatePicker_popupButton")).click();
+      //driver.findElement(By.linkText("1")).click();
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_FromDatePicker_dateInput")).sendKeys("01-05-2014");
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_ToDatePicker_popupButton")).click();
+      //driver.findElement(By.linkText("5")).click();
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_ToDatePicker_popupButton")).sendKeys("05-05-2014");
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_SearchButton_input")).click();
+      driver.findElement(By.id("ctl00_ContentPlaceHolder1_FromDatePicker_popupButton")).click();
+      //driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_FromDatePicker_calendar_Top']/tbody/tr[1]/td[4]/a")).click();
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_FromDatePicker_popupButton")).click();
+      WebElement dateWidget = driver.findElement(By.id("ctl00_ContentPlaceHolder1_FromDatePicker_calendar_Top"));  
+      List<WebElement> columns=dateWidget.findElements(By.tagName("td"));
+      for (WebElement cell: columns)
+      {
+    	   //Select From Date 
+    	   if (cell.getText().equals("12"))
+    	   {
+    	      cell.findElement(By.linkText("12")).click();
+    	      break;
+    	   }
+      
+      }
+      driver.findElement(By.id("ctl00_ContentPlaceHolder1_ToDatePicker_popupButton")).click();
+      WebElement dateWidget1 = driver.findElement(By.id("ctl00_ContentPlaceHolder1_ToDatePicker_calendar_Top"));  
+      List<WebElement> columns1=dateWidget1.findElements(By.tagName("td"));
+      for (WebElement cell: columns1)
+      {
+    	   //Select To Date 
+    	   if (cell.getText().equals("12"))
+    	   {
+    	      cell.findElement(By.linkText("12")).click();
+    	      break;
+    	   }
+      
+      }
+     /* WebElement select = driver.findElement(By.id("ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input"));
+      List<WebElement> options = select.findElements(By.c
+    		  for (WebElement option : options) {
+          if("GANGTOK".equals(option.getText()))
+              option.click();   
+      }*/
+      driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_DropDown']/div/ul/li[1]")).click();
+      /* driver.findElement(By.xpath("//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_Input']")).click();
+      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+      driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_DepotTypeComboBox_DropDown']/div/ul/li[1]")).click();
+      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
+      driver.findElement(By.id("ctl00_ContentPlaceHolder1_SearchButton_input")).click();
+     // driver.findElement(By.id("ContentPlaceHolder1_RadioButton1")).click();
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_MonthYearPicker_dateInput")).sendKeys("May 2014");
+      //driver.findElement(By.id("ctl00_ContentPlaceHolder1_SearchButton_input")).click();
+     Thread.sleep(15000);
+      //System.out.println(driver.findElement(By.className("textBox36")).getText());
+     System.out.println(driver.findElement(By.xpath(".//*[@id='content']/div[139]")).getText());
+
+      
+      
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+}
+}
+
+
+	

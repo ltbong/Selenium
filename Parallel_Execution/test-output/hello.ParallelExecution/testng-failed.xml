@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [hello.ParallelExecution]" parallel="tests">
+  <parameter name="browserType" value="CH"/>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browserType" value="CT"/>
+    <classes>
+      <class name="hello.ParallelExecution">
+        <methods>
+          <include name="monthReport" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- hello.ParallelExecution -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browserType" value="CH"/>
+    <classes>
+      <class name="hello.ParallelExecution">
+        <methods>
+          <include name="monthReport" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- hello.ParallelExecution -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [hello.ParallelExecution] -->

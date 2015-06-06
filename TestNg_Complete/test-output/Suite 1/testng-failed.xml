@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite 1]" parallel="classes">
+  <test name="Regression(failed)" parallel="classes">
+    <classes>
+      <class name="example.SkipTest">
+        <methods>
+          <include name="test"/>
+          <include name="testCaseSkipException"/>
+        </methods>
+      </class> <!-- example.SkipTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

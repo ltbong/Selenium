@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test suite 1" duration-ms="10295" started-at="2015-04-15T12:47:59Z" finished-at="2015-04-15T12:48:10Z">
+    <groups>
+    </groups>
+    <test name="unit test" duration-ms="10295" started-at="2015-04-15T12:47:59Z" finished-at="2015-04-15T12:48:10Z">
+      <class name="example.DataProviderExcel">
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:example.DataProviderExcel@1d251891]" name="VerifyInvalidLogin" duration-ms="8710" started-at="2015-04-15T18:18:00Z" data-provider="data" finished-at="2015-04-15T18:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raviteja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34234345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+      </class> <!-- example.DataProviderExcel -->
+    </test> <!-- unit test -->
+  </suite> <!-- test suite 1 -->
+</testng-results>

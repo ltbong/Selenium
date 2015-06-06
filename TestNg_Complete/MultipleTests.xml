@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Suite one">
+    <test name ="unit tests">
+        <classes>
+            <class name= "example.SkipTest"/>
+        </classes>
+        </test>
+        <test name = "Regression tests">
+            <classes>
+                <class name ="example.TimeoutTest" />
+            </classes>
+        </test>
+    
+</suite>

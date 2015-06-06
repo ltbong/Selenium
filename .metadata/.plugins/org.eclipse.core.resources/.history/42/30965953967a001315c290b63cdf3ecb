@@ -1,0 +1,32 @@
+package day1;
+
+/*import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Sample_Selenium {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirefoxDriver dr1 =new FirefoxDriver();
+		FirefoxDriver dr2 =new FirefoxDriver();
+		dr1.get("http://www.google.com");
+		dr2.get("http://www.yahoo.com");
+	}
+
+}*/
+import org.openqa.selenium.By;
+import org.openqa.selenium.android.AndroidDriver;
+public class Sample_Selenium {
+public static void main(String args[])throws Exception
+{
+AndroidDriver ad=new AndroidDriver();
+System.out.println("Started");
+ad.get("http://www.gmail.com");
+System.out.println("Application Title"+ ad.getTitle());
+Thread.sleep(2000);
+ad.findElement(By.name("Email")).sendKeys("type your email");
+ad.findElement(By.name("Passwd")).sendKeys("type password");
+ad.findElement(By.name("signIn")).click();
+System.out.println("Opened");
+ad.close();
+ }
+}

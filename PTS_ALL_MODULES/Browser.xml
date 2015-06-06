@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parallel tests" parallel="tests" thread-count="2">
+    <test name = "Simultaneous tests">
+        <classes>
+            <class name = "modules.TouristRegistration"/>
+        </classes>
+    </test>
+</suite>

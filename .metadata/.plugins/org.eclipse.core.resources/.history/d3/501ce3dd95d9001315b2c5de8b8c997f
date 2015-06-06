@@ -1,0 +1,29 @@
+import java.awt.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Bookings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 WebDriver driver = new FirefoxDriver();
+	     driver.get("http://202.153.45.8/OnLineBusBookSystem");
+	     driver.findElement(By.name("from_input")).sendKeys("GANGTOK");
+	     driver.findElement(By.name("to_input")).sendKeys("NAMCHI");
+	     driver.findElement(By.id("date")).sendKeys("13-05-2014");
+	     driver.findElement(By.name("NumberOfSeats_input")).sendKeys("1");
+	     driver.findElement(By.id("search")).click();
+	  //  driver.findElements(By.xpath("//table[@id='schedulesgrid']/tr")).size();
+	   
+	     //int var=(driver.findElements(By.xpath(".//*[@id='schedulesgrid']/div[2]/table/tbody/tr")).size()) - 1;
+	    
+	String st = driver.findElement(By.className("k-button k-button-icontext k-grid-BookTickets")).getText();
+	System.out.println("no of buttons"+st);
+	   
+	}
+
+}

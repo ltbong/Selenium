@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" verbose="1">
+    <test name="Group one">
+        <groups>
+            <run>
+                <include name="include.*"/>
+                <exclude name =".*exclude"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="example.RegularExpressions"/>
+        </classes>
+    </test>
+</suite>

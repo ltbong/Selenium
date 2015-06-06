@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Clear_textbox&apos;" deleteContents="false" description="Delete resource &apos;Clear_textbox&apos;" element1="/Clear_textbox" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1415442944508"/>&#x0A;<refactoring comment="Delete resource &apos;Chrome&apos;" deleteContents="false" description="Delete resource &apos;Chrome&apos;" element1="/Chrome" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1415442975199"/>
+</session>

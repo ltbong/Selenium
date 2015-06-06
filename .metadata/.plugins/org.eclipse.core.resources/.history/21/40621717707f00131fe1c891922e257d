@@ -1,0 +1,58 @@
+package testng;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+
+import java.io.FileInputStream;
+
+//import java.io.IOException;
+import jxl.Sheet;
+import jxl.Workbook;
+
+//import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class Datadriven{
+Sheet s;
+WebDriver driver;
+@BeforeMethod
+public void setUp()
+{
+driver = new FirefoxDriver();
+System.out.println("im in setup");
+//driver.get("http:\\www.gmail.com");
+}
+@Test
+public void searchGoogle() throws Exception
+{
+	System.out.println("im in searchgoogle");
+	FileInputStream  fi = new FileInputStream("C:\\Users\\ravitejaseetha\\Desktop\\input.xls");
+Workbook w = Workbook.getWorkbook(fi);
+s = w.getSheet(0);
+for(int row=1; row <=s.getRows();row++)
+{
+String username = s.getCell(0, row).getContents();
+System.out.println("Username "+username);
+driver.get("http:\\mail.technoidentity.com");
+driver.findElement(By.name("ctl00$MPH$txtUserName")).sendKeys(username);
+String password= s.getCell(1, row).getContents();
+System.out.println("Password "+password);
+driver.findElement(By.name("ctl00$MPH$txtPassword")).sendKeys(password);
+driver.findElement(By.xpath(".//*[@id='ctl00_MPH_LoginImageButton']/a/span/span/span/div[1]/img")).click();
+}
+}
+@AfterTest
+public void tearDown()
+{
+	driver.findElement(By.linkText("Logout")).click();
+
+}
+}

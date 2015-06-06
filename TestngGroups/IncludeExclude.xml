@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test suite" verbose="1">
+    <test name="Test group one">
+        <groups>
+            <run>
+                <inlcude name ="include-group"/>
+                <exclude name="exclude-group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="example.IncludeExclude"/>
+        </classes>
+    </test>
+</suite>

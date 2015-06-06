@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite one]">
+  <test name="unit tests(failed)">
+    <classes>
+      <class name="example.SkipTest">
+        <methods>
+          <include name="test"/>
+          <include name="testCaseSkipException"/>
+        </methods>
+      </class> <!-- example.SkipTest -->
+    </classes>
+  </test> <!-- unit tests(failed) -->
+</suite> <!-- Failed suite [Suite one] -->
